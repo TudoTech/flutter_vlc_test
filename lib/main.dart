@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:AYDemo/live/VlcPlayerTest.dart';
 void main() {
   runApp(MyApp());
 }
@@ -26,7 +26,8 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home:VLCPlayerTest(),
+      // home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
